@@ -89,8 +89,8 @@ Average delta in incorrect identifications (between identifed v.s. correct): 0.6
 
 Clearly, SpeechBrain ECAPA model's accuracy & identification time make it the ideal choice. However, it is quite confident when it makes incorrect decisions. 
 
-Amongst the Whisper models, `Small` offers a good balance between identification time and acccuracy.
-`Turbo` matches SpeechBrain's accuracy, but the identification time is very high.
+Amongst the Whisper models, `small` offers a good balance between identification time and acccuracy.
+`turbo` matches SpeechBrain's accuracy, but the identification time is very high.
 
 # Mixed language (x-en) tests
 
@@ -161,3 +161,13 @@ Average delta in incorrect identifications (between identifed v.s. correct): 0.4
 ## Analysis
 
 SpeechBrain's model performs significantly better (on guessing x), with Whisper having a high prediction rate for english.
+
+# Final comparison
+
+### Single language samples
+
+![model comparison](other/model_comparison_table.png)
+
+### x-en language samples
+
+![mixed model comparison](other/mixed_model_comparison_table.png)
